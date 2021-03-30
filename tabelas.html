@@ -1,9 +1,65 @@
-<table class="table table-condensed">
-	<thead><tr><th colspan="4">Nucleotídeos</th></tr></thead>
-	<tbody>
-		<tr><td>Adenina</td></tr>
-		<tr><td>Guanina</td></tr>
-		<tr><td>Citosina</td></tr>
-		<tr><td>Timina</td></tr>
-	</tbody>
-</table>
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>BootStrap</title>
+	<meta charset="utf-8">
+    <!-- Tag para melhorar a renderização em  Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="./css/Stilo.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+
+    
+</head>
+<body>
+	<div class="container-fluid">
+    <table class="table table-hover">
+        <thead><tr><th colspan="4">Times do Futebol Brasileiro</th></tr></thead>
+        <tbody>
+            <tr><td>Cruzeiro</td></tr>
+            <tr><td>America</td></tr>
+            <tr><td>Atletico</td></tr>
+            <tr><td>Boa Esporte</td></tr>
+        </tbody>
+    </table>
+   
+<br>
+   <form>
+   
+    <div class="form-group">
+      <label>E-mail:</label>
+      <input type="email" class="form-control" id="email" placeholder="Email">
+    </div>
+   
+    <div class="form-group">
+      <label>Senha</label>
+      <input type="password" class="form-control" id="senha" placeholder="Senha">
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox"> Mantenha-me conectado
+      </label>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon">R$</span>
+        <input type="text" class="form-control"  placeholder="Valor">
+        <span class="input-group-addon">,00</span>
+
+    </div>
+
+    <button type="submit" class="btn btn-danger btn-lg">Entrar</button>
+  </form>
+
+</div>
+	<footer>
+		<!-- Nosso script é carregado no footer -->
+		<script src="./js/Script.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        
+	</footer>
+
+    
+</body>
+</html>
